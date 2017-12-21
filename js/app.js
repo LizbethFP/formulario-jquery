@@ -26,9 +26,10 @@ $(document).ready(function() {
     // Validar que los 3 inputs contengan texto
     if ($(input1).val() != '' && $(input2).val() != '' && $(input3).val() != '') {
       $(btn).prop('disabled', false);
-      // Agregar color negro al botón después de validad los 3 input
+      // Agregar color negro al botón después de validad los 3 input y hacer que tenga negrita
       $(btn).css({
-        'color' : 'inherit'
+        'color' : 'inherit',
+        'fontWeight' : 'bold'
       // Cierre de propiedad CSS
       });
     // Cierre de if
